@@ -27,5 +27,5 @@
 
 .logo h1 {
     filter: 
-    drop-shadow(box-shadow: 3px 3px 10px lightseagreen);
+    drop-shadow(3px 3px 10px lightseagreen);
 }
