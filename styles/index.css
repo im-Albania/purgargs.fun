@@ -3,9 +3,27 @@ body {
   background-color: white;
   color: black;
   font-size: 25px;
+  margin: 0;
 }
 
 .dark-mode {
   background-color: black;
   color: white;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px; /* Размер квадрата */
+  height: 50px; /* Размер квадрата */
+  background-color: #3498db; /* Приятный цвет, замените на свой */
+  color: #fff; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругление углов, по желанию */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9; /* Измененный цвет при наведении */
 }
