@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link ref="stylesheet" type="text/css" href="./styles/index.css"
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Beautiful Website</title>
 </head>
 <body>
+    <header>
+        <h1>Welcome to our Beautiful Website</h1>
+    </header>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Про проєкт</a>
-  <a href="#">Гра</a>
-</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<div id="main">
-  <h2>Головна сторінка</h2>
-  <p>Для перезоду у панель керування натисніть на ("бургер") який знаходиться декалька нижче  тексту.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-</div>
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section of our beautiful website.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>Learn more about our beautiful website and what we do.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services Section</h2>
+        <p>Discover the amazing services we offer to our users.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>Get in touch with us for any inquiries or feedback.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Beautiful Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-<script src="./js/index.js"></script>
