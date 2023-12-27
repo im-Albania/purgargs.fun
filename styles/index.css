@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
   }
   
   body {
@@ -8,17 +8,18 @@
   
   .tab {
     float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #333;
+    background: linear-gradient(to right, #111, #333);
     width: 30%;
     height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
   }
   
- 
   .tab button {
     display: block;
-    background-color: inherit;
-    color: black;
+    background: inherit;
+    color: white;
     padding: 22px 16px;
     width: 100%;
     border: none;
@@ -26,24 +27,28 @@
     text-align: left;
     cursor: pointer;
     font-size: 17px;
+    border-radius: 8px;
   }
   
   .tab button:hover {
-    background-color: #ddd;
+    background: linear-gradient(to right, #222, #444);
   }
   
   .tab button.active {
-    background-color: #ccc;
+    background: #555;
   }
   
   .tabcontent {
     float: left;
     padding: 0px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #333;
     width: 70%;
     border-left: none;
     height: 300px;
     display: none;
+    background: linear-gradient(to right, #333, #555);
+    border-radius: 15px;
+    overflow: hidden;
   }
   
   .clearfix::after {
@@ -51,3 +56,4 @@
     clear: both;
     display: table;
   }
+  
