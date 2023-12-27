@@ -7,28 +7,21 @@
   <link href="./styles/index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="tab">
-    <button class="tablinks" onmouseover="openCity(event, 'London')">Зачем?</button>
-    <button class="tablinks" onmouseover="openCity(event, 'Paris')">Донат</button>
-    <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Новости</button>
-  </div>
+  <body>
 
-  <div id="London" class="tabcontent">
-    <h3>Цель?</h3>
-    <p>Цель проекта была создания стратегии в каждом устройстве и главное <b>оптимизация</b>, с минимальным донатом и рекламой.</p>
-  </div>
-
-  <div id="Paris" class="tabcontent">
-    <h3>Донат</h3>
-    <p>Доната пока нет, но вы можете смотреть рекламу и получать монеты!<p><b><a href="#">Подробнне о монетах</a></b></p></p> 
-  </div>
-
-  <div id="Tokyo" class="tabcontent">
-    <h3>Новости</h3>
-    <p>Новостей нет :)))</p>
-  </div>
-
-  <div class="clearfix"></div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  
+    <div id="main">
+      <h2>Sidenav Push Example</h2>
+      <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </div>
   <script src="./js/index.js"></script>
 </body>
 </html>
