@@ -9,7 +9,7 @@ header {
   background-color: #3498db;
   color: #fff;
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 nav {
@@ -44,13 +44,16 @@ section {
   padding: 20px;
 }
 
+#contact {
+  height: 300px; /* Задаємо фіксовану висоту для секції контактів */
+}
+
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1em;
-}
-
-#contact {
-  margin-bottom: 50px;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
