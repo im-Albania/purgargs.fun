@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/styles/index.css"
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-<h2>Index pages</h2>
-<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
-
-<div class="row">
-  <div class="left" style="background-color:#bbb;">
-    <h2>Menu</h2>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-    <ul id="myMenu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Project</a></li>
-      <li><a href="#">Other</a></li>
-    </ul>
+  <div class="tab">
+    <button class="tablinks" onmouseover="openCity(event, 'London')">Зачем?</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Paris')">Донат</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Новости</button>
   </div>
-  
-  <div class="right" style="background-color:#ddd;">
-    pan
+
+  <div id="London" class="tabcontent">
+    <h3>Цель?</h3>
+    <p>Цель проекта была создания стратегии в каждом устройстве и главное <b>оптимизация</b>, с минимальным донатом и рекламой.</p>
   </div>
-</div>
 
-<script src="./js/index.js"></script>
+  <div id="Paris" class="tabcontent">
+    <h3>Донат</h3>
+    <p>Доната пока нет, но вы можете смотреть рекламу и получать монеты!<p><b><a href="#">Подробнне о монетах</a></b></p></p> 
+  </div>
 
+  <div id="Tokyo" class="tabcontent">
+    <h3>Новости</h3>
+    <p>Новостей нет :)))</p>
+  </div>
+
+  <div class="clearfix"></div>
+  <script src="./js/script.js"></script>
 </body>
 </html>
