@@ -31,7 +31,7 @@ nav a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 
@@ -42,10 +42,6 @@ nav a:hover {
 
 section {
   padding: 20px;
-}
-
-#contact {
-  height: 300px; /* Задаємо фіксовану висоту для секції контактів */
 }
 
 footer {
